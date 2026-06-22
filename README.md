@@ -7,38 +7,38 @@ A personal **portfolio website** built to showcase my projects, skills, and cont
 
 - **About / Hero Section**
 
- – Clean introduction with profile picture and description.
+  Clean introduction with profile picture and description.
  
 
 - **Skills Section**
 
-  – Interactive skill cards with modern gradients and hover effects.
+  Interactive skill cards with modern gradients and hover effects.
  
 - **Projects Section**
 
-   – Showcases portfolio projects in card format with hover animations.  
+  Showcases portfolio projects in card format with hover animations.  
 
 - **Contact Section** –
 
-- Links to email and social profiles with smooth hover effects.
+   Links to email and social profiles with smooth hover effects.
   
 - **Responsive Design**
 
-   – Works seamlessly on both desktop and mobile devices.  
+  Works seamlessly on both desktop and mobile devices.  
 
 ## 🛠️ Technology Stack
 
 - **Frontend:**
 
-- HTML5, CSS3, JavaScript  
+  HTML5, CSS3, JavaScript  
 
 - **Frameworks / Libraries:**
 
-- None(Vanilla JS & CSS)
+  None(Vanilla JS & CSS)
     
 - **Design:**
 
--  Responsive layout, gradients, hover animations, Flexbox & CSS Grid  
+   Responsive layout, gradients, hover animations, Flexbox & CSS Grid  
 
 ## 📂 Project Structure
 
