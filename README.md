@@ -18,7 +18,7 @@ A personal **portfolio website** built to showcase my projects, skills, and cont
 
   Showcases portfolio projects in card format with hover animations.  
 
-- **Contact Section** –
+- **Contact Section** 
 
    Links to email and social profiles with smooth hover effects.
   
