@@ -72,7 +72,11 @@ cd portfolio
 
 3. **Open `index.html`** in your preferred web browser.
 
-💡 Usage
+
+## Live Demo
+[View My TechNova React Layout Project] (https://sehrish-web209.github.io/portfolio/)
+
+## 💡 Usage
 
 Explore the website to see my About, Skills, Projects, and Contact sections.
 
@@ -80,7 +84,7 @@ Hover over skills and project cards to see interactive effects.
 
 Contact links redirect to email or social profiles.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Sehrish Maqbool.BSIT 3rd year student at University of Chakwal. Persoanl portfolio project of Task 1 from syntecxhub internship. Developed Feb 2026
 
