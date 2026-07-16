@@ -42,8 +42,6 @@ A personal **portfolio website** built to showcase my projects, skills, and cont
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```bash
 portfolio/
 │
@@ -74,7 +72,7 @@ cd portfolio
 
 3. **Open `index.html`** in your preferred web browser.
 
-No server setup is required. This project runs directly in the browser.
+> No server setup is required. This project runs directly in the browser.
 
 
 💡 Usage
