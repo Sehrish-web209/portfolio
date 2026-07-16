@@ -72,9 +72,6 @@ cd portfolio
 
 3. **Open `index.html`** in your preferred web browser.
 
-> No server setup is required. This project runs directly in the browser.
-
-
 💡 Usage
 
 Explore the website to see my About, Skills, Projects, and Contact sections.
