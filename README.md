@@ -44,7 +44,7 @@ A personal **portfolio website** built to showcase my projects, skills, and cont
 
 ## 📂 Project Structure
 
-```text
+```bash
 portfolio/
 │
 ├── index.html              # Main HTML file
@@ -57,10 +57,6 @@ portfolio/
     └── profile-pic.jpg     # Profile picture
 ```
 
-
-## 🚀 How to Run Locally
-
-1. **Clone the repository:**
 
 ## 🚀 How to Run Locally
 
@@ -78,7 +74,7 @@ cd portfolio
 
 3. **Open `index.html`** in your preferred web browser.
 
-> No server setup is required. This project runs directly in the browser.
+No server setup is required. This project runs directly in the browser.
 
 
 💡 Usage
