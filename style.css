@@ -66,7 +66,7 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+ font-size:clamp(1.8rem,5vw,3rem);
   margin-bottom: 15px;
   color: #1e3a8a;
 }
@@ -105,14 +105,6 @@ body {
   gap: 20px;
 }
 
-/* ================= SKILLS ================= */
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
 .skill {
   padding: 15px 20px;
   border-radius: 12px;
@@ -137,19 +129,6 @@ body {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-
-/* ================= RESPONSIVE ================= */
-@media (max-width: 768px) {
-  .skills-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .skill {
-    flex: 1 1 80%;  /* almost full width on mobile */
-    max-width: 300px;
-  }
-}
 /* ================= PROJECTS ================= */
 .projects-container {
   display: flex;
@@ -159,7 +138,8 @@ body {
 }
 
 .project-card {
-  width: 280px;
+  max-width:280px;
+  width:100%;
   min-height: 180px;
   padding: 20px;
   border-radius: 15px;
@@ -202,29 +182,73 @@ body {
 
 /* ================= RESPONSIVE ================= */
 @media (max-width: 1024px) {
-  .skills-container { justify-content: center; gap: 15px; flex-wrap: wrap; }
-  .skill { width: 45%; } /* 2 per row for tablets */
-  .projects-container { gap: 20px; }
-  .project-card { width: 45%; min-height: 160px; }
+  .skills-container {
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    flex: 0 0 45%;
+  }
+
+  .projects-container {
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 45%;
+    min-height: 160px;
+  }
 }
 
 @media (max-width: 768px) {
-  .skills-container, .projects-container {
+
+  .hero {
+    padding-top: 170px;
+    min-height: auto;
+  }
+
+  .profile-pic {
+    width: 140px;
+  }
+
+  .skills-container,
+  .projects-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .skill { width: 80%; } /* 1 per row on mobile */
-  .project-card { width: 90%; }
+  .skill {
+    flex: 1 1 80%;
+    max-width: 300px;
+  }
 
-  .hero-content h1 { font-size: 2.2rem; }
-  .hero-content p { font-size: 1rem; }
+  .project-card {
+    width: 90%;
+  }
 
-  .navbar ul { flex-direction: column; }
-  .navbar li { margin: 10px 0; }
+  .hero-content p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .section {
+    padding: 60px 15px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .navbar li {
+    margin: 5px 10px;
+  }
 }
 
 @media (max-width: 480px) {
-  .hero-content h1 { font-size: 1.8rem; }
   .hero-content p { font-size: 0.95rem; }
 }
