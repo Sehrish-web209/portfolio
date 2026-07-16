@@ -42,25 +42,44 @@ A personal **portfolio website** built to showcase my projects, skills, and cont
 
 ## 📂 Project Structure
 
-portfolio/ ├── index.html           # Main HTML file ├── css/ │   └── style.css        # Styling for all sections ├── js/ │   └── script.js        # Optional interactive JS ├── images/ │   └── profile-pic.jpg  # Profile picture └── README.md            # Project documentation
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── index.html              # Main HTML file
+├── README.md               # Project documentation
+│
+├── css/
+│   └── style.css           # Stylesheet for all sections
+│
+└── images/
+    └── profile-pic.jpg     # Profile picture
+```
+
 
 ## 🚀 How to Run Locally
 
 1. **Clone the repository:**
 
+## 🚀 How to Run Locally
+
+1. **Clone the repository**
+
 ```bash
-
 git clone https://github.com/Sehrish-web209/portfolio.git
+```
 
-Navigate to the project folder:
+2. **Navigate to the project folder**
 
-Bash
-
+```bash
 cd portfolio
+```
 
-Open index.html in your browser.
+3. **Open `index.html`** in your preferred web browser.
 
-No server setup required – works directly on the browser.
+> No server setup is required. This project runs directly in the browser.
+
 
 💡 Usage
 
