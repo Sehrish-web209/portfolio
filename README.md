@@ -74,7 +74,7 @@ cd portfolio
 
 
 ## Live Demo
-[View My Portfolio Project] (https://sehrish-web209.github.io/portfolio/)
+[View My Portfolio Project]( https://sehrish-web209.github.io/portfolio/)
 
 ## 💡 Usage
 
